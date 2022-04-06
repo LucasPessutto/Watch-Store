@@ -28,7 +28,7 @@ function mountComponent(
   });
 }
 
-describe('Default Layout', () => {
+describe('Default Layout - integration testing', () => {
   let server;
   let products;
 

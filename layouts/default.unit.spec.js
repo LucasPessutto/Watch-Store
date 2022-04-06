@@ -3,7 +3,7 @@ import DefaultLayout from '@/layouts/default';
 import Cart from '@/components/Cart';
 import { CartManager } from '@/managers/CartManager';
 
-describe('Default Layout', () => {
+describe('Default Layout - unit testing', () => {
   const mountLayout = () => {
     const wrapper = mount(DefaultLayout, {
       mocks: {

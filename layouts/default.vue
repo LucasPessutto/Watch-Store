@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="bg-white">
     <header>
@@ -120,6 +121,7 @@
 </template>
 
 <script>
+/* eslint-disable prettier/prettier */
 import Cart from '@/components/Cart';
 
 export default {

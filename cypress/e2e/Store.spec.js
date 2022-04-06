@@ -1,6 +1,6 @@
 import { makeServer } from '../../miragejs/server';
 
-context('Store', () => {
+context('Store - e2e testing', () => {
   let server;
   const g = cy.get;
   const gid = cy.getByTestId;

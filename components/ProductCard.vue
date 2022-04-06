@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
     <div
@@ -32,6 +33,7 @@
 </template>
 
 <script>
+/* eslint-disable prettier/prettier */
 export default {
   name: 'ProductCard',
   props: {

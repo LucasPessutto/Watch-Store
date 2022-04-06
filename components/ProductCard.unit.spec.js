@@ -3,7 +3,7 @@ import ProductCard from '@/components/ProductCard';
 import { makeServer } from '@/miragejs/server';
 import { CartManager } from '@/managers/CartManager';
 
-describe('ProductCard - unit', () => {
+describe('ProductCard - unit testing', () => {
   let server;
 
   beforeEach(() => {

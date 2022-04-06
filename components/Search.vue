@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <form
     data-testid="search-form"
@@ -25,6 +26,7 @@
 </template>
 
 <script>
+/* eslint-disable prettier/prettier */
 export default {
   name: 'Search',
   data() {

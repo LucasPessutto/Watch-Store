@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import Search from '@/components/Search';
 
-describe('Search - unit', () => {
+describe('Search - unit testing', () => {
   it('should mount the component', () => {
     const wrapper = mount(Search);
     expect(wrapper.vm).toBeDefined();

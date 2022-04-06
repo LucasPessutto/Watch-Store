@@ -3,7 +3,7 @@ import CartItem from '@/components/CartItem';
 import { makeServer } from '@/miragejs/server';
 import { CartManager } from '@/managers/CartManager';
 
-describe('CartItem', () => {
+describe('CartItem - unit testing', () => {
   let server;
 
   beforeEach(() => {

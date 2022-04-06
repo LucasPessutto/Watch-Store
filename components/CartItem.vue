@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="flex justify-between mt-6">
     <div class="flex">
@@ -62,6 +63,7 @@
 </template>
 
 <script>
+/* eslint-disable prettier/prettier */
 export default {
   name: 'CartItem',
   props: {

@@ -1,7 +1,7 @@
 import { CartManager } from '@/managers/CartManager';
 import { makeServer } from '@/miragejs/server';
 
-describe('CartManager', () => {
+describe('CartManager - unit testing', () => {
   let server;
   let manager;
 

@@ -17,7 +17,7 @@ jest.mock('axios', () => ({
   get: jest.fn(),
 }));
 
-describe('ProductList - integration', () => {
+describe('ProductList - integration testing', () => {
   let server;
 
   /**

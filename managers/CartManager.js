@@ -59,6 +59,7 @@ export class CartManager {
     return this.getState();
   }
 
+  // limpar produtor
   clearProducts() {
     this.state.items = [];
 

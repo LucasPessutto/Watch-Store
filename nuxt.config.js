@@ -15,7 +15,7 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
 
-  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+  // Plugins to run beforee rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['@/plugins/miragejs', '@/plugins/cart'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

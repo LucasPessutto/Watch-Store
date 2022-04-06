@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <main class="my-8">
     <search @doSearch="setSearchTerm" />
@@ -24,6 +25,7 @@
 </template>
 
 <script>
+/* eslint-disable prettier/prettier */
 import ProductCard from '@/components/ProductCard';
 import Search from '@/components/Search';
 

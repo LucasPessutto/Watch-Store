@@ -1,4 +1,5 @@
 # editorconfig.org
+# edição padrão para VScode
 root = true
 
 [*]

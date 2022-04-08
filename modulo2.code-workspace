@@ -4,6 +4,7 @@
       "path": "."
     }
   ],
+
   "settings": {
     "workbench.colorCustomizations": {
       "titleBar.activeBackground": "#f4bb00",

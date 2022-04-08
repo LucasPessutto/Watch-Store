@@ -4,12 +4,14 @@ module.exports = {
     browser: true,
     node: true,
   },
+
   parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
     requireConfigFile: false,
     sourceType: 'module',
   },
+
   extends: [
     '@nuxtjs',
     'prettier',
@@ -17,6 +19,7 @@ module.exports = {
     'plugin:nuxt/recommended',
     'plugin:cypress/recommended',
   ],
+
   plugins: ['prettier', 'cypress'],
   rules: {
     'vue/multi-word-component-names': 'off',
